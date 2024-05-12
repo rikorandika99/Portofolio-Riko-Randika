@@ -59,8 +59,20 @@
     html {
       scroll-behavior: smooth;
     }
-
     
+    /* Responsiveness for Android */
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
   </style>
 </head>
 
@@ -82,14 +94,14 @@
     <div style="text-align: center;"><br><br><br>
       <h2 style="font-weight: bold;">Hello Everyone!</h2>
       <p>My Name is <span style="color: red;">Riko Randika</span></p>
-      <img src="anime1.jpg" alt="poto" style="height: 200px; width: 200px; border-radius: 50%;">
+      <img src="anime1.jpg" alt="poto" style="max-width: 100%; height: auto; border-radius: 50%;">
       <br><br><br><br><br>
     </div>
   </section>
 
   <section id="Aboutme" style="background-image: url(b3.jpg); background-size: cover; background-repeat: no-repeat;">
     <div style="text-align: center;"><br><br>
-      <img src="profil.jpg" alt="poto" style="height: 200px; width: 200px; border-radius: 50%; box-shadow: 10px 0px 0px rgba(1, 0, 0, 0.3);"><br><br>
+      <img src="profil.jpg" alt="poto" style="max-width: 100%; height: auto; border-radius: 50%; box-shadow: 10px 0px 0px rgba(1, 0, 0, 0.3);"><br><br>
       <p style="font-weight: bold;">About Me:</p>
       <p>I am a student at STMIK Kaputama majoring in the 2023/2024 teaching information systems study program, I am an ordinary lower class child who wants to have the dream of being a programmer who will later want to repay my parents who have taken the trouble to finance and look after me to the extent of This.<br><em>more information here : <i class="fa fa-whatsapp"><a href="http://wa.me/6288261927112"><em> Whatsapp</em></a></i></em>
         <i class="fa fa-instagram"><a href="https://www.instagram.com/rikorandikaa._/"><em> Instagram</em></a></i>
@@ -97,59 +109,59 @@
     </div><br><br><br><br><br><br><br><br><br>
   </section>
 
-<!-- HALAMAN 3 -->
-<div id="Ability" style="padding: 10px; background-image: url(b3\ -\ Copy.jpg); background-size: cover; background-repeat: no-repeat; margin-top: -20px; padding-top: 70px;">
-  <h2 style="text-align: center; font-weight: bolder; font-size: 40px;">My Ability : </h2><br><br>
-  <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">HTML</p>
-  <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+  <!-- HALAMAN 3 -->
+  <div id="Ability" style="padding: 10px; background-image: url(b3\ -\ Copy.jpg); background-size: cover; background-repeat: no-repeat; margin-top: -20px; padding-top: 70px;">
+    <h2 style="text-align: center; font-weight: bolder; font-size: 30px;">My Ability : </h2><br><br>
+    <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">HTML</p>
+    <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
       <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%; height: 20px; background-color: #333;">
-          <p style="padding-left: 70%;">70%</p>
+        <p style="padding-left: 70%;">70%</p>
       </div>
-  </div>
-  <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">CSS</p>
-  <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+    </div>
+    <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">CSS</p>
+    <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
       <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%; height: 20px; background-color: #333;">
-          <p style="padding-left: 30%;">25%</p>
+        <p style="padding-left: 30%;">25%</p>
       </div>
-  </div>
-  <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">JAVASCRIPT</p>
-  <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+    </div>
+    <p style="text-align: center; padding-top: 30px; font-weight: bold; font-size: 20px;">JAVASCRIPT</p>
+    <div class="progress" style="height: 18px; margin-left: 5%; margin-right: 5%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
       <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 5%; height: 20px; background-color: #333;">
-          <p style="padding-left: 3%;">5%</p>
+        <p style="padding-left: 3%;">5%</p>
       </div>
+    </div>
   </div>
-</div>
-  
+
   <hr style="background-color: #A9A9A9; height: 1px; border: none; margin-top: -1px;" id="Ability">
-  
+
   <!-- HALAMAN 3 -->
   <div id="Contact" style="padding: 80px; background-image: url(b2.jpg); background-size: 100% 100%; padding-bottom: 100px; margin-top: -20px;"><br>
-    <h2 style="text-align: center; font-weight: bolder; font-size: 40px;">My Performance : </h2><br><br><br>
+    <h2 style="text-align: center; font-weight: bolder; font-size: 30px;">My Performance : </h2><br><br><br>
     <div style="padding-bottom: 50px;">
-      <img src="serti1.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black; margin-right: 50px;">
-      <img src="serti2.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black;">
+      <img src="serti1.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black; margin-right: 50px;">
+      <img src="serti2.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black;">
     </div>
     <div style="padding-bottom: 50px;">
-      <img src="serti3hd.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black; margin-right: 50px;">
-      <img src="serti4.jpg" alt="poto" style="width: 500px; height: 300px; border: 3px solid black;">
+      <img src="serti3hd.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black; margin-right: 50px;">
+      <img src="serti4.jpg" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black;">
     </div>
     <div style="padding-bottom: 50px;">
-      <img src="serti5.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black; margin-right: 50px;">
-      <img src="serti6.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black;">
+      <img src="serti5.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black; margin-right: 50px;">
+      <img src="serti6.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black;">
     </div>
     <div style="padding-bottom: 50px;">
-      <img src="serti7.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black; margin-right: 50px;">
-      <img src="serti8.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black;">
+      <img src="serti7.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black; margin-right: 50px;">
+      <img src="serti8.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black;">
     </div>
     <div style="padding-bottom: 50px;">
-      <img src="serti9.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black; margin-right: 50px;">
-      <img src="serti10.png" alt="poto" style="width: 500px; height: 300px; border: 3px solid black;">
+      <img src="serti9.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black; margin-right: 50px;">
+      <img src="serti10.png" alt="poto" style="max-width: 100%; height: auto; border: 3px solid black;">
     </div>
   </div>
   <!-- END HALAMAN -->
   <footer>
     <p>&copy; 2024 Riko Randika | Front End Development</p>
   </footer>
-  </body>
-  </html>
-  
+</body>
+
+</html>
